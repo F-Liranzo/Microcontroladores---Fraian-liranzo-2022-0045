@@ -1,0 +1,7 @@
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Calculadora\Calculadora\obj\Debug\net6.0-windows\Calculadora.csproj.AssemblyReference.cache
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Calculadora\Calculadora\obj\Debug\net6.0-windows\Calculadora.Dashboard.resources
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Calculadora\Calculadora\obj\Debug\net6.0-windows\Calculadora.csproj.GenerateResource.cache
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Calculadora\Calculadora\obj\Debug\net6.0-windows\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Calculadora\Calculadora\obj\Debug\net6.0-windows\Calculadora.AssemblyInfoInputs.cache
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Calculadora\Calculadora\obj\Debug\net6.0-windows\Calculadora.AssemblyInfo.cs
+C:\Users\Fraia\Desktop\ITLA\PPM\Programacion en C\Programacion-en-C\C#\Calculadora\Calculadora\obj\Debug\net6.0-windows\Calculadora.csproj.CoreCompileInputs.cache
