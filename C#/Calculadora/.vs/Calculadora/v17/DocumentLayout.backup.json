@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Fraia\\Desktop\\Microcontroladores---Fraian-liranzo-2022-0045\\Microcontroladores---Fraian-liranzo-2022-0045\\C#\\Calculadora\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Fraia\\Desktop\\Microcontroladores---Fraian-liranzo-2022-0045\\Microcontroladores---Fraian-liranzo-2022-0045\\C#\\Calculadora\\Calculadora\\Calculadora.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Calculadora\\Calculadora.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Fraia\\Desktop\\Microcontroladores---Fraian-liranzo-2022-0045\\Microcontroladores---Fraian-liranzo-2022-0045\\C#\\Calculadora\\Calculadora\\Calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Calculadora\\Calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Calculadora.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Fraia\\Desktop\\Microcontroladores---Fraian-liranzo-2022-0045\\Microcontroladores---Fraian-liranzo-2022-0045\\C#\\Calculadora\\Calculadora\\Calculadora.Designer.cs",
+              "RelativeDocumentMoniker": "Calculadora\\Calculadora.Designer.cs",
+              "ToolTip": "C:\\Users\\Fraia\\Desktop\\Microcontroladores---Fraian-liranzo-2022-0045\\Microcontroladores---Fraian-liranzo-2022-0045\\C#\\Calculadora\\Calculadora\\Calculadora.Designer.cs",
+              "RelativeToolTip": "Calculadora\\Calculadora.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T23:06:17.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculadora.cs",
+              "DocumentMoniker": "C:\\Users\\Fraia\\Desktop\\Microcontroladores---Fraian-liranzo-2022-0045\\Microcontroladores---Fraian-liranzo-2022-0045\\C#\\Calculadora\\Calculadora\\Calculadora.cs",
+              "RelativeDocumentMoniker": "Calculadora\\Calculadora.cs",
+              "ToolTip": "C:\\Users\\Fraia\\Desktop\\Microcontroladores---Fraian-liranzo-2022-0045\\Microcontroladores---Fraian-liranzo-2022-0045\\C#\\Calculadora\\Calculadora\\Calculadora.cs",
+              "RelativeToolTip": "Calculadora\\Calculadora.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T23:05:51.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
