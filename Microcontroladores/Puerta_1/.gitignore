@@ -1,0 +1,5 @@
+sdkconfig
+CMakelist.txt
+build/
+/.devcontainer
+.vscode

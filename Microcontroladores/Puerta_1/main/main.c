@@ -6,6 +6,7 @@
 #include "freertos/task.h"
 #include "driver/gpio.h"
 
+// Declarando los estados posibles 
 #define ESTADO_INIT 0
 #define ESTADO_CERRADO 1
 #define ESTADO_ABIERTO 2
@@ -117,18 +118,22 @@ int main ()
       {
          ESTADO_SIGUIENTE = Func_CERRADO();
       }
+
       if (ESTADO_SIGUIENTE == ESTADO_ABIERTO)
       {
          ESTADO_SIGUIENTE = Func_ABIERTO();
       }
+
       if (ESTADO_SIGUIENTE == ESTADO_CERRANDO)
       {
          ESTADO_SIGUIENTE = Func_CERRANDO();
       }
+
       if (ESTADO_SIGUIENTE == ESTADO_ABRIENDO)
       {
          ESTADO_SIGUIENTE = Func_ABRIENDO();
       }
+
       if (ESTADO_SIGUIENTE == ESTADO_ERROR)
       {
          ESTADO_SIGUIENTE = Func_ERROR();
@@ -143,13 +148,14 @@ int main ()
 int Func_INIT(void)
 {
 
-   
    ESTADO_ANTERIOR = ESTADO_INIT ;
    ESTADO_ACTUAL = ESTADO_INIT ;
+
+
    data_io.MC = FALSE;
    data_io.MA = FALSE;
 
-    data_io.led_A= TRUE;// al encender la maquina todos los led encienden 
+   data_io.led_A= TRUE;// al encender la maquina todos los led encienden 
    data_io.led_C = TRUE;
    data_io.led_ERR = TRUE;
 
@@ -198,15 +204,13 @@ int Func_CERRADO(void)
 {
  ESTADO_ANTERIOR = ESTADO_ACTUAL;
    ESTADO_ACTUAL = ESTADO_CERRADO;
+
    data_io.MC = FALSE;
    data_io.SPP = FALSE; // se asegura el estado poniendo la variable false 
    data_io.led_A= FALSE;
    data_io.led_C = FALSE;
    data_io.led_ERR = FALSE;
-   printf("\n Cerrado\n");
-
-   actualizar_datos ();
-
+   
    for (;;)
    {
       if (data_io.SPP == TRUE)
@@ -229,9 +233,6 @@ int Func_ABIERTO(void)
    data_io.led_C = FALSE;
    data_io.led_ERR = FALSE;
 
-    printf("\n abierto\n");
-
-   actualizar_datos ();
 
 
    for (;;)
@@ -254,10 +255,6 @@ int Func_CERRANDO(void)
     data_io.led_A= FALSE;
    data_io.led_C = TRUE;
    data_io.led_ERR = FALSE;
-
-    printf("\n cerrando \n");
-
-   actualizar_datos ();
 
    for (;;)
    {
@@ -286,9 +283,7 @@ int Func_ABRIENDO(void)
    data_io.led_C = FALSE;
    data_io.led_ERR = FALSE;
 
-    printf("\n abriendo\n");
-
-   actualizar_datos ();
+  
 
    for (;;)
    {
@@ -307,10 +302,6 @@ int Func_ABRIENDO(void)
    
 }
 int Func_ERROR(void)                                   
-
- printf("\n error \n");
-
-   actualizar_datos ();
 
 { 
    ESTADO_ANTERIOR = ESTADO_ACTUAL;
